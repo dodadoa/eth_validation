@@ -8,7 +8,7 @@ defmodule EthValidation.MixProject do
       description: "validation for eth",
       package: [
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/dodadoa/eth_validation"},
+        links: %{"GitHub" => "https://github.com/dodadoa/eth_validation"}
       ],
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
