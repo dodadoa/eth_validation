@@ -26,7 +26,8 @@ defmodule EthValidation.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_keccak, "~> 0.4.0"}
+      {:ex_keccak, "~> 0.4.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end
