@@ -1,6 +1,6 @@
 # EthValidation
 
-now only has validation for eth address with (EIP-55)[https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md)
+now only has validation for eth address with [EIP-55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md)
 
 inspired by [eip_55](https://github.com/unnawut/eip_55) by Unnawut, but instead use https://github.com/tzumby/ex_keccak which is
 Rustle - NIFs instead of [:ex_sha3](https://hex.pm/packages/ex_sha3).
