@@ -5,6 +5,8 @@ defmodule EthValidation.MixProject do
     [
       app: :eth_validation,
       version: "0.1.0",
+      description: "validation for eth",
+      license: "MIT",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps()
